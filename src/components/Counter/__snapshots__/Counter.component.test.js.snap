@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter should render a Counter 1`] = `
+<div>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Add
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Subtract
+  </button>
+</div>
+`;

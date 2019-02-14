@@ -6,13 +6,13 @@ class Counter extends Component {
     this.props.onAddClick();
   }
   decrementCount = () => {
-    this.props.onsubtractClick();
+    this.props.onSubtractClick();
   }
 
   render() {
-    console.log(this.props)
     return (
       <div>
+        Counter: {this.props.counter}
         <Button caption="Add" onClick ={this.incrementCount}></Button>
         <Button caption="Subtract" onClick={this.decrementCount}></Button>
       </div>
